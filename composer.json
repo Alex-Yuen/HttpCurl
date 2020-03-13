@@ -12,6 +12,11 @@
       "email": "an-qin@qq.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "an\\": "src/"
+    }
+  },
   "require": {
     "php": ">=7.3",
     "topthink/framework": "^6.0.0",
