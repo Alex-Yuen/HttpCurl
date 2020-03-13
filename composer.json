@@ -1,0 +1,20 @@
+{
+  "name": "anqin/httpcurl",
+  "description": "curl class for thinkphp6",
+  "license": "Apache License 2.0",
+  "keywords": [
+    "curl",
+    "think extend"
+  ],
+  "authors": [
+    {
+      "name": "AnQin",
+      "email": "an-qin@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "topthink/framework": "^6.0.0",
+    "ext-curl": "*"
+  }
+}
