@@ -20,6 +20,8 @@
   "require": {
     "php": ">=7.3",
     "topthink/framework": "^6.0.0",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "ext-mbstring": "*",
+    "ext-json": "*"
   }
 }

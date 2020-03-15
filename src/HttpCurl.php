@@ -112,7 +112,6 @@ class HttpCurl {
     public function post(string $url = null, array $data = []): HttpCurl {
         if (empty($data) && !empty($this->data)) $data = $this->data; else $this->data = $data;
         if (!empty($data)) {
-
             if (isset($data['custom']) && true === $data['custom']) $this->setOpt(CURLOPT_POSTFIELDS, $data['body']); else {
                 if (!isset($this->headers['Content-Type'])) $this->setHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
                 $this->setOpt(CURLOPT_POSTFIELDS, http_build_query($data));
